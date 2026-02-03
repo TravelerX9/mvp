@@ -40,7 +40,7 @@ export default async function BlogPage() {
             ))}
             {publishedPosts.length === 0 && (
               <div className="text-center py-12 text-gray-500">
-                No posts published yet
+                No posts published yet.
               </div>
             )}
           </div>
