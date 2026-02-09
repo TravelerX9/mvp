@@ -17,7 +17,7 @@ export default async function BlogPage() {
       <main className="flex-grow pt-40 pb-16 px-6">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold mb-12 bg-gradient-to-br from-white to-white/50 bg-clip-text text-transparent">
-            Blog
+            Blog.
           </h1>
           <div className="grid gap-8">
             {publishedPosts.map((post) => (
